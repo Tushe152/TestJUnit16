@@ -1,0 +1,9 @@
+[main] INFO  units.Log  - --Open page testaddressbook.com--
+[main] INFO  units.Log  - --Check if the page title is correct--
+[main] INFO  units.Log  - --Log In--
+[main] INFO  units.Log  - ----Test #1 ----
+[main] INFO  units.Log  - Enter the fields
+[main] INFO  units.Log  - ----Test #1 ----
+[main] INFO  units.Log  - ----Test #1 ----
+[main] INFO  units.Log  - Log out
+[main] INFO  units.Log  - Browser shut down

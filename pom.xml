@@ -7,7 +7,12 @@
     <groupId>org.example</groupId>
     <artifactId>TestJUnit</artifactId>
     <version>1.0-SNAPSHOT</version>
-
+    <properties>
+        <maven.compiler.source>13</maven.compiler.source>
+        <maven.compiler.target>13</maven.compiler.target>
+        <junit.jupiter.version>5.7.1</junit.jupiter.version>
+        <junit.platform.version>1.7.0</junit.platform.version>
+    </properties>
 
     <dependencies>
         <dependency>
@@ -25,7 +30,7 @@
         <dependency>
         <groupId>org.junit.jupiter</groupId>
         <artifactId>junit-jupiter-api</artifactId>
-        <version>5.4.2</version>
+        <version>5.7.1</version>
         <scope>test</scope>
     </dependency>
 
@@ -49,10 +54,5 @@
         </dependency>
 
     </dependencies>
-    <properties>
-    <maven.compiler.source>13</maven.compiler.source>
-    <maven.compiler.target>13</maven.compiler.target>
-    <junit.jupiter.version>5.7.1</junit.jupiter.version>
-    <junit.platform.version>1.7.0</junit.platform.version>
-</properties>
+
 </project>
